@@ -12,6 +12,7 @@ namespace Faturador.Services
         public void Faturar(FiltroFaturamento filtro)
         {
             Console.WriteLine($"Fatura: {filtro.Id} | Cliente: {filtro.CodigoCliente} | GERADA COM SUCESSO | Data Inicio Apuração: {filtro.DataInicioApuracao} - Data Fim Apuração: {filtro.DataFimApuracao}");
-        }        
+            
+        }
     }
 }

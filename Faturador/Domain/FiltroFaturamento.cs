@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Faturador.Domain
 {
@@ -10,5 +11,7 @@ namespace Faturador.Domain
         public DateTime DataFimApuracao { get; set; }
         public int TipoApuracao { get; set; }
         public int GerenciadoraId { get; set; }
+
+        public List<Ticket> Tickets { get; set; }
     }
 }
